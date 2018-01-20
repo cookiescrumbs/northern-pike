@@ -1,6 +1,6 @@
 # Northern Pike
 
-Chomps on some text containing a OS Refs, titles and a descriptions and spits out an array containing titles, descriptions and lat,lng
+Chomps on some text containing OS Refs, titles and a descriptions for waters and spits out an array of waters containing a title, a descriptions and a lat,lng
 
 ![Northern Pike](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Esox_lucius1.jpg/1200px-Esox_lucius1.jpg "Northern Pike")
 
