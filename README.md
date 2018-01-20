@@ -1,7 +1,7 @@
 # Northern Pike
 
 
-![Northern Pike](https://en.wikipedia.org/wiki/Northern_pike#/media/File:Esox_lucius1.jpg "Northern Pike")
+![Northern Pike](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Esox_lucius1.jpg/1200px-Esox_lucius1.jpg "Northern Pike")
 
 
 ## Installation
