@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Steven']
   spec.email         = ['stevenjamescook@gmail.com']
 
-  spec.summary       = 'Chomps on some text and spits out an array'
-  spec.description   = 'Chomps on some text and spits out an array'
-  spec.homepage      = ''
+  spec.summary       = 'Chomps on some text containing OS Refs, titles and a descriptions for waters and spits out an array of waters containing a title, a descriptions and a lat,lng.'
+  spec.description   = 'Chomps on some text containing OS Refs, titles and a descriptions for waters and spits out an array of waters containing a title, a descriptions and a lat,lng.'
+  spec.homepage      = 'https://github.com/cookiescrumbs/northern-pike'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
