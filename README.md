@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-northern_pike.chomp '~/waters.txt'
+```
+string_of_text = File.read(Dir.pwd + '/waters.txt')
+
+northern_pike.chomp text: string_of_text, grid_letters: 'HU'
+
+```
 
 ## Development
 
