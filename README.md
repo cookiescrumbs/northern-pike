@@ -24,11 +24,11 @@ Or install it yourself as:
 ## Usage
 
 ```
-NorthernPike.os_reference_to_lat_lng(os_ref: 'HU260490')
+NorthernPike.os_ref_to_lat_lng(os_ref: 'HU260490')
 
 {:lat=>60.22449375779038, :lng=>-1.5325017342359533}
 
-NorthernPike.lat_lng_to_os_reference(lat: 60.22449375779038, lng: -1.5325017342359533)
+NorthernPike.lat_lng_to_os_ref(lat: 60.22449375779038, lng: -1.5325017342359533)
 
 {:os_map_ref=>"HU 26000 49000"}
 
