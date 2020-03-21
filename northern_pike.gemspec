@@ -8,9 +8,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Steven']
   spec.email         = ['stevenjamescook@gmail.com']
 
-  spec.summary       = 'Chomps on some text containing OS Refs, titles and a descriptions for waters and spits out an array of waters containing a title, a descriptions and a lat,lng.'
-  spec.description   = 'Chomps on some text containing OS Refs, titles and a descriptions for waters and spits out an array of waters containing a title, a descriptions and a lat,lng.'
+  spec.summary       = 'Converts latitude,longitude to an OS map reference and an OS map reference to latitude,longitude'
+  spec.description   = 'Converts latitude,longitude to an OS map reference and an OS map reference to latitude,longitude'
   spec.homepage      = 'https://github.com/cookiescrumbs/northern-pike'
+  spec.license     = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
@@ -28,8 +29,8 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'global_convert'
-  spec.add_dependency 'os_map_ref'
+  spec.add_dependency 'global_convert', '0.0.2'
+  spec.add_dependency 'os_map_ref', '0.5.0'
 
   spec.add_development_dependency 'bundler', '~> 1.14'
   spec.add_development_dependency 'byebug'
