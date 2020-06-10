@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'global_convert', '0.0.2'
   spec.add_dependency 'os_map_ref', '0.5.0'
 
-  spec.add_development_dependency 'bundler', '1.14'
+  spec.add_development_dependency 'bundler', '~>2.1.4'
   spec.add_development_dependency 'byebug', '11.1.1'
   spec.add_development_dependency 'rake', '10.0'
   spec.add_development_dependency 'rspec', '3.9.0'
