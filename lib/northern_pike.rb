@@ -33,4 +33,18 @@ module NorthernPike
 
         { os_map_ref: OsMapRef::Location.for("#{location.lon},#{location.lat}").map_reference }
     end
+
+    def self.easting_northing_to_lat_lng(easting:, northing:)
+      location = GlobalConvert::Location.new(
+        input: {
+          projection: :osgb36,
+          lon: easting,
+          lat: northing
+        },
+        output: {
+          projection: :wgs84
+        }
+      )
+      { lat: (location.lat * 180 / Math::PI), lng: (location.lon * 180 / Math::PI) }
+    end
 end
