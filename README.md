@@ -39,7 +39,13 @@ NorthernPike.lat_lng_to_os_ref(lat: 60.22449375779038, lng: -1.5325017342359533)
 
 ## Development
 
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+After checking out the repo, run `bin/setup` to install dependencies.
+
+This is a hobby project and some of the gems used rely on old and unsupported versions of ruby (2.4.1) and proj (v5). 
+For the sake of time I've just fixed the version in the `setup` script. 
+You'll need to run the `setup` which uses homebrew and rbenv to install dependencies so it's OSX only unfortunately.
+
+You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
 
