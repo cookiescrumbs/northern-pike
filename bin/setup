@@ -1,8 +1,13 @@
 #!/usr/bin/env bash
-set -euo pipefail
-IFS=$'\n\t'
-set -vx
 
+# Global Convert uses Projo4rb which requires ruby >= 2.4.1 https://github.com/cfis/proj4rb/blob/master/proj4rb.gemspec#L11
+# benv to install ruby v 2.4.1
+rbenv install 2.4.1
+gem install bundler
 bundle install
 
-# Do any other automated setup that you need to do here
+# Fixed the proj version to v5 becuase that's the version that works with the https://github.com/reggieb/global_convert
+# https://github.com/sethdeckard/homebrew-proj/tree/master/Formula
+brew tap sethdeckard/proj
+brew install sethdeckard/proj/proj
+
