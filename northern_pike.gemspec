@@ -1,4 +1,6 @@
-lib = File.expand_path('../lib', __FILE__)
+# frozen_string_literal: true
+
+lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'northern_pike/version'
 
@@ -11,7 +13,7 @@ Gem::Specification.new do |spec|
   spec.summary       = 'Converts latitude,longitude to an OS map reference and an OS map reference to latitude,longitude'
   spec.description   = 'Converts latitude,longitude to an OS map reference and an OS map reference to latitude,longitude'
   spec.homepage      = 'https://github.com/cookiescrumbs/northern-pike'
-  spec.license     = 'MIT'
+  spec.license = 'MIT'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
@@ -37,5 +39,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '10.0'
   spec.add_development_dependency 'rspec', '3.9.0'
   spec.add_development_dependency 'rubocop', '0.79.0'
-
 end
